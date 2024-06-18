@@ -6,7 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/modalStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -15,19 +16,46 @@
 <div class="container">
     <div class="content">
         <div class="wrapper">
-        <div class="title">Демо-версия</div>
-        <div class="text">
-            За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов.
-            Используя знания и накопленный опыт мы можем предложить
-        </div>
-        <button class="button">
-            Попробовать бесплатно
-            <img class="buttonSvg" src="Frame1130.svg" alt="svg">
-        </button>
+            <div class="title">Демо-версия</div>
+            <div class="text">
+                За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых
+                проектов.
+                Используя знания и накопленный опыт мы можем предложить
+            </div>
+            <button class="button">
+                Попробовать бесплатно
+                <img class="buttonSvg" src="styles/images/Frame1130.svg" alt="svg">
+            </button>
         </div>
     </div>
-    <img class="img" src="image15.jpg" alt="img">
+    <img class="img" src="styles/images/image15.jpg" alt="img">
 </div>
+
+<div class="modalContainer">
+    <button class="closeButton">
+        <img src="styles/images/close.svg" alt="svg"/>
+    </button>
+    <div class="formGroup">
+        <div class="titleForm">Войти в систему</div>
+        <form>
+            <label for="username"></label><input class="input" type="text" id="username" name="username" required
+                                                 placeholder="Email/Телефон">
+            <label for="password"></label><input class="input" type="password" id="password" name="password" required
+                                                 placeholder="Пароль">
+            <div class="checkboxGroup">
+                <input class="checkbox" type="checkbox" id="checkbox"/>
+                <label for="checkbox" class="checkboxLabel">Запомнить пароль</label>
+            </div>
+            <div class="buttonGroup">
+                <a class="restore">Восстановить</a>
+                <button type="submit" class="submitButton">Войти</button>
+            </div>
+        </form>
+        <button class="registerButton">Зарегестрироваться</button>
+
+    </div>
+</div>
+
 
 </body>
 </html>

@@ -1,0 +1,108 @@
+.modalContainer {
+    margin: 50px auto;
+    width: 500px;
+    height: 575px;
+    background-color: #dde8ff;
+}
+
+.closeButton {
+    all: unset;
+    width: 52px;
+    height: 52px;
+    margin: 24px 24px 0 420px;
+    cursor: pointer;
+}
+
+.titleForm {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #323232;
+    margin-left: 24px;
+}
+
+.input {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #1F4284;
+
+    width: 427px;
+    height: 73px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D7E2F6;
+    margin: 18px 0 0 24px;
+    padding-left: 24px;
+}
+.input:nth-of-type(2) {
+    margin-top: 4px;
+}
+
+.checkboxGroup {
+    display: flex;
+    margin: 24px 0 0 24px;
+
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #323232;
+}
+
+.checkboxLabel {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 14px;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.restore {
+    all: unset;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 136px;
+    height: 27px;
+    margin: 24px 0 0 24px;
+    color: #244C98;
+    cursor: pointer;
+}
+
+.submitButton {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+
+
+    width: 452px;
+    height: 65px;
+    border-radius: 4px;
+    margin: 36px 24px 0 24px;
+    background-color: #244C98;
+    cursor: pointer;
+}
+
+.registerButton {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #244C98;
+
+    width: 452px;
+    height: 65px;
+    margin: 4px 24px 24px 24px;
+    border-radius: 4px;
+    border: 1px solid #244C98;
+    background-color: #F0F4FC;
+    cursor: pointer;
+
+
+}
